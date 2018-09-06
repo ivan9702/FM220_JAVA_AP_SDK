@@ -1,0 +1,1 @@
+javac -classpath .;UIDAI.jar uidai_sample.java

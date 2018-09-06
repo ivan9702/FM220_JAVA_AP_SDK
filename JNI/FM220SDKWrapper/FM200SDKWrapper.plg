@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FM200SDKWrapper - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP3FE.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "JNI_include" /I "JNI_include\win32" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FM200SDKWRAPPER_EXPORTS" /FR"Release/" /Fp"Release/FM200SDKWrapper.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\2011-StartekWork\ReaderIntegration\FM220\JAVA Solution\SRC_20141221\JNI\FM220SDKWrapper\FM200SDKWrapper.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP3FE.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP3FF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/FM220SDKWrapper.pdb" /machine:I386 /out:"Release/FM220SDKWrapper.dll" /implib:"Release/FM220SDKWrapper.lib" 
+".\Release\BMPImageUtility.obj"
+".\Release\FM200SDKWrapper.obj"
+".\Release\JAWTTool.obj"
+".\Release\StartekSDKTool.obj"
+".\Release\FM200SDKWrapper.res"
+".\fm220api.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP3FF.tmp"
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP402.bat" with contents
+[
+@echo off
+echo on
+copy .\Release\FM220SDKWrapper.dll ..\.
+copy .\Release\FM220SDKWrapper.dll ..\JAVA_SDK\com\startek_eng\fm200sdk\lib\.
+echo off
+]
+Creating command line "C:\DOCUME~1\user\LOCALS~1\Temp\RSP402.bat"
+Compiling...
+FM200SDKWrapper.cpp
+Linking...
+   Creating library Release/FM220SDKWrapper.lib and object Release/FM220SDKWrapper.exp
+<h3>Output Window</h3>
+Performing Custom Build Step on .\Release\FM220SDKWrapper.dll
+
+D:\2011-StartekWork\ReaderIntegration\FM220\JAVA Solution\SRC_20141221\JNI\FM220SDKWrapper>copy .\Release\FM220SDKWrapper.dll ..\. 
+複製了         1 個檔案。
+
+D:\2011-StartekWork\ReaderIntegration\FM220\JAVA Solution\SRC_20141221\JNI\FM220SDKWrapper>copy .\Release\FM220SDKWrapper.dll ..\JAVA_SDK\com\startek_eng\fm200sdk\lib\. 
+系統找不到指定的路徑。
+複製了         0 個檔案。
+
+D:\2011-StartekWork\ReaderIntegration\FM220\JAVA Solution\SRC_20141221\JNI\FM220SDKWrapper>echo off 
+Creating command line "bscmake.exe /nologo /o"Release/FM200SDKWrapper.bsc"  ".\Release\BMPImageUtility.sbr" ".\Release\FM200SDKWrapper.sbr" ".\Release\JAWTTool.sbr" ".\Release\StartekSDKTool.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FM220SDKWrapper.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

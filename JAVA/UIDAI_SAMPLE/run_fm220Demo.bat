@@ -1,0 +1,1 @@
+java -cp .;FM220SDK.jar FM220SDKDemo

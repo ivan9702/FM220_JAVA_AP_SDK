@@ -1,0 +1,15 @@
+20161110	replace fm220drv.dll as no cut ver
+20141221	add NFIQ function FP_GetNFIQ()
+20140708	add function FP_SaveISOminutia() FP_LoadISOminutia()
+20130409	add createImage function in JNI
+20110419	class name改名FM220SDKWrapper
+20110419	package改名com.startek_eng.fm220 (大幅修改)
+
+20110311	導入FP_GetTemplate()
+20110311	導入FP_EnrollEx()
+修改常數FP_CODE_LENGTH 256->512
+
+預定導入下面函式
+FP_SaveISOImage()
+FP_SaveISOCode()
+FP_LoadISOCode()

@@ -1,0 +1,1 @@
+C:\jdk1.6_0_29\bin\java -cp .;FM220SDK.jar FM220SDKGUIDemo
